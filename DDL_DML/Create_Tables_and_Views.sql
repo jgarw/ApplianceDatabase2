@@ -1,3 +1,5 @@
+-- Student: Joseph Garwood
+
 -- Create CUSTOMERS table
 CREATE TABLE CUSTOMERS (
     customerID INT PRIMARY KEY,

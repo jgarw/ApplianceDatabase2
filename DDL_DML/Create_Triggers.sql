@@ -1,3 +1,5 @@
+-- Student: Joseph Garwood
+
 -- create a sequence to use as customerID auto-incrementor
 CREATE SEQUENCE customerID_SEQ
 START WITH 1
