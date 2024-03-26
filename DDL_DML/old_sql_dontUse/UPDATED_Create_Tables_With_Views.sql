@@ -1,3 +1,10 @@
+-- create a sequence to use as id auto-incrementor
+CREATE SEQUENCE auto_increment
+START WITH 1
+  INCREMENT BY 1
+  NOCACHE
+  NOCYCLE;
+
 -- Create CUSTOMERS table
 CREATE TABLE CUSTOMERS (
     customerID INT PRIMARY KEY,
