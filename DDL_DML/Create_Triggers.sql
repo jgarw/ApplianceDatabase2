@@ -1,6 +1,4 @@
--- Student: Joseph Garwood
-
--- create a sequence to use as customerID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE customerID_SEQ
 START WITH 1
   INCREMENT BY 1;
@@ -14,7 +12,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as customer_fnameID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE customer_fname_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -28,7 +26,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as fnameID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE fnameID_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -42,7 +40,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as lnameID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE lnameID_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -56,7 +54,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as customer_lnameID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE customer_lname_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -70,7 +68,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as cust_appliancesID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE cust_appliances_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -84,7 +82,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as applianceID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE applianceID_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -98,7 +96,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as appointmentID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE appointmentID_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -112,7 +110,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as technicianID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE technicianID_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -126,7 +124,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as appointmentdatetimeID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE app_datetimeID_SEQ
 START WITH 1
   INCREMENT BY 1; 
@@ -140,7 +138,7 @@ BEGIN
 END;
 /
 
--- create a sequence to use as datetimeID auto-incrementor
+-- create a sequence to use as id auto-incrementor
 CREATE SEQUENCE datetimeID_SEQ
 START WITH 1
   INCREMENT BY 1; 
